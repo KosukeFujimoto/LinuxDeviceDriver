@@ -13,7 +13,7 @@ EXTRA_CFLAGS += $(DEBFLAGS) -I$(LDDINCDIR)
 ifneq ($(KERNELRELEASE),)
 # call from kernel build system
 
-obj-m	:= helloworld.o
+obj-m	:= hello.o
 
 else
 
